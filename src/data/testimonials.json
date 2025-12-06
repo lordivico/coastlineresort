@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Sarah Miller",
+        "role": "Honeymooner",
+        "content": "Our stay at Coastline Resort was absolutely magical. The Ocean View suite exceeded all our expectations.",
+        "rating": 5,
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
+    },
+    {
+        "id": 2,
+        "name": "James Robinson",
+        "role": "Family Traveler",
+        "content": "The kids loved the Garden Villa pool! The staff were incredibly attentive and the food was divine.",
+        "rating": 5,
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200"
+    },
+    {
+        "id": 3,
+        "name": "Elena Kovac",
+        "role": "Digital Nomad",
+        "content": "Perfect balance of luxury and connectivity. I worked from the balcony with the best view in the world.",
+        "rating": 5,
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200"
+    }
+]

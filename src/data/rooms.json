@@ -1,0 +1,66 @@
+[
+    {
+        "id": "deluxe-ocean-view",
+        "name": "Deluxe Ocean View",
+        "description": "Wake up to the sound of waves in this spacious suite featuring a private balcony with panoramic ocean views.",
+        "price": 250,
+        "capacity": 2,
+        "size": "45m²",
+        "amenities": [
+            "Ocean View",
+            "King Bed",
+            "Free Wi-Fi",
+            "Breakfast Included",
+            "Private Balcony"
+        ],
+        "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1000"
+    },
+    {
+        "id": "palm-garden-villa",
+        "name": "Palm Garden Villa",
+        "description": "Immerse yourself in nature with our Garden Villa, surrounded by lush tropical greenery and a private plunge pool.",
+        "price": 350,
+        "capacity": 4,
+        "size": "80m²",
+        "amenities": [
+            "Garden View",
+            "Private Pool",
+            "2 Queen Beds",
+            "Kitchenette",
+            "Outdoor Shower"
+        ],
+        "image": "https://images.unsplash.com/photo-1570213489059-0aac6626cade?auto=format&fit=crop&q=80&w=1000"
+    },
+    {
+        "id": "royal-beachfront-penthouse",
+        "name": "Royal Beachfront Penthouse",
+        "description": "The ultimate luxury experience. Top floor location, direct beach access via private elevator, and butler service.",
+        "price": 850,
+        "capacity": 2,
+        "size": "120m²",
+        "amenities": [
+            "Beachfront",
+            "Butler Service",
+            "Jacuzzi",
+            "Living Room",
+            "Panoramic View"
+        ],
+        "image": "https://images.unsplash.com/photo-1591247378418-c77f1532d2f8?auto=format&fit=crop&q=80&w=1000"
+    },
+    {
+        "id": "cozy-horizon-room",
+        "name": "Cozy Horizon Room",
+        "description": "Perfect for solo travelers or couples, offering comfort and style with a partial sea view.",
+        "price": 180,
+        "capacity": 2,
+        "size": "30m²",
+        "amenities": [
+            "Partial Sea View",
+            "Queen Bed",
+            "Work Desk",
+            "Smart TV",
+            "Mini Bar"
+        ],
+        "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=1000"
+    }
+]

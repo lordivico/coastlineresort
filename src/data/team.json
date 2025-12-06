@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Elena Rodriguez",
+        "role": "General Manager",
+        "bio": "With over 20 years in luxury hospitality, Elena ensures every guest experience is flawless.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": 2,
+        "name": "Chef Marco Rossi",
+        "role": "Executive Chef",
+        "bio": "Marco brings authentic Mediterranean flavors to our oceanfront dining, sourcing only local ingredients.",
+        "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": 3,
+        "name": "Sarah Chen",
+        "role": "Head of Wellness",
+        "bio": "A certified yoga instructor and spa therapist dedicated to your relaxation and rejuvenation.",
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        "id": 4,
+        "name": "David Okafor",
+        "role": "Guest Experience Director",
+        "bio": "David specializes in curating personalized island adventures and unforgettable moments.",
+        "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=400"
+    }
+]
