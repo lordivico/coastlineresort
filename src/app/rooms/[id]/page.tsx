@@ -1,17 +1,47 @@
-"use client";
 
-import { useParams } from "next/navigation";
+
+import { Metadata } from "next";
 import { Button } from "@/components/ui/Button";
 import { Section } from "@/components/ui/Section";
 import rooms from "@/data/rooms.json";
 import Link from "next/link";
 import { Check, Users, Maximize, ArrowLeft } from "lucide-react";
+import JsonLd from "@/components/seo/JsonLd";
 
-export default function RoomDetailsPage() {
-    // Using explicit strict hook for id
-    const params = useParams();
-    // Ensure params.id is a string (it might be undefined initially or array)
-    const id = params?.id as string;
+type Props = {
+    params: Promise<{ id: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+    const { id } = await params;
+    const room = rooms.find((r) => r.id === id);
+
+    if (!room) {
+        return {
+            title: "Room Not Found",
+        };
+    }
+
+    return {
+        title: room.name,
+        description: room.description,
+        openGraph: {
+            title: `${room.name} | Coastline Resort`,
+            description: room.description,
+            images: [
+                {
+                    url: room.image,
+                    width: 1200,
+                    height: 630,
+                    alt: room.name,
+                },
+            ],
+        },
+    };
+}
+
+export default async function RoomDetailsPage({ params }: Props) {
+    const { id } = await params;
 
     const room = rooms.find((r) => r.id === id);
 

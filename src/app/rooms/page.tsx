@@ -1,4 +1,11 @@
-"use client";
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Accommodation",
+    description:
+        "Explore our luxury collection of ocean-view suites and private villas.",
+};
 
 import { Section } from "@/components/ui/Section";
 import { RoomCard } from "@/components/ui/RoomCard";

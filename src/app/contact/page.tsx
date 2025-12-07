@@ -1,4 +1,10 @@
-"use client";
+
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Contact Us",
+    description: "Get in touch with us to plan your perfect getaway.",
+};
 
 import { Section } from "@/components/ui/Section";
 import { Button } from "@/components/ui/Button";

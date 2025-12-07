@@ -18,8 +18,60 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Coastline Resort",
-  description: "Experience luxury at the edge of the ocean.",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://coastline-resort.com"),
+  title: {
+    default: "Coastline Resort | Luxury Beachfront Getaway",
+    template: "%s | Coastline Resort",
+  },
+  description:
+    "Experience the ultimate luxury at Coastline Resort. Private villas, fine dining, and pristine beaches await you. Book your paradise today.",
+  keywords: [
+    "Resort",
+    "Luxury Hotel",
+    "Beach Resort",
+    "Vacation",
+    "Accommodation",
+    "Travel",
+    "Ocean View",
+  ],
+  authors: [{ name: "Coastline Resort" }],
+  creator: "Coastline Resort",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "/",
+    title: "Coastline Resort | Luxury Beachfront Getaway",
+    description:
+      "Experience the ultimate luxury at Coastline Resort. Private villas, fine dining, and pristine beaches await you.",
+    siteName: "Coastline Resort",
+    images: [
+      {
+        url: "/og-image.jpg", // We need to ensure this exists or use a remote one, but standard practice is local
+        width: 1200,
+        height: 630,
+        alt: "Coastline Resort Luxury Views",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Coastline Resort | Luxury Beachfront Getaway",
+    description:
+      "Experience the ultimate luxury at Coastline Resort. Private villas, fine dining, and pristine beaches await you.",
+    images: ["/og-image.jpg"],
+    creator: "@coastline_resort",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
