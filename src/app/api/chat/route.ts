@@ -29,7 +29,7 @@ export async function POST(req: Request) {
             method: "POST",
             headers: headers,
             body: JSON.stringify({
-                model: "google/gemma-3-27b-it:free",
+                model: "openai/gpt-oss-20b:free",
                 messages: [
                     {
                         role: "system",
